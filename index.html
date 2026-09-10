@@ -578,13 +578,13 @@ body {
     </div>
 
     <!-- Main Navigation Bar -->
-    <div class="max-w-[1440px] mx-auto px-3 sm:px-5 lg:px-8">
-      <div class="flex justify-between items-center h-20 sm:h-22 py-1 gap-2 lg:gap-4 flex-nowrap">
+    <div class="max-w-[1440px] mx-auto px-2 sm:px-4 lg:px-2.5 xl:px-8">
+      <div class="flex justify-between items-center h-16 sm:h-20 lg:h-16 xl:h-20 py-1 gap-1 lg:gap-1.5 xl:gap-4 flex-nowrap">
         
         <!-- Prominent Brand Logo & Title -->
         <a href="#home" class="flex items-center group py-1 shrink-0">
-          <div class="h-14 sm:h-16 md:h-17 w-auto flex items-center transition-transform group-hover:scale-105">
-            <div class="h-full w-auto max-w-[260px] sm:max-w-[320px] md:max-w-[360px] flex items-center drop-shadow-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 115" width="100%" height="100%">
+          <div class="h-10 sm:h-12 md:h-14 lg:h-11 xl:h-16 w-auto flex items-center transition-transform group-hover:scale-105">
+            <div class="h-full w-auto max-w-[160px] sm:max-w-[180px] md:max-w-[220px] lg:max-w-[175px] xl:max-w-[340px] flex items-center drop-shadow-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 115" width="100%" height="100%">
   <defs>
     <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0369a1" />
@@ -663,19 +663,19 @@ body {
         </a>
 
         <!-- Desktop Navigation Links -->
-        <nav class="hidden lg:flex items-center gap-1 xl:gap-2 text-xs xl:text-sm font-extrabold text-slate-800 shrink-0">
-          <a href="#home" class="nav-link px-3 py-2 rounded-xl text-slate-800 hover:text-blue-700 hover:bg-blue-50/90 font-black flex items-center gap-1.5 border border-slate-200/80 hover:border-blue-300 shadow-2xs transition-all" data-i18n="nav_home">
+        <nav class="hidden lg:flex items-center gap-0.5 xl:gap-1.5 text-[11px] xl:text-xs font-black text-slate-800 shrink-0">
+          <a href="#home" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-slate-800 hover:text-blue-700 hover:bg-blue-50/90 font-black flex items-center gap-1 border border-slate-200/80 hover:border-blue-300 shadow-2xs transition-all">
             <i class="fa-solid fa-house text-blue-600"></i>
             <span>Home</span>
           </a>
           
           <!-- Dropdown for Tools (Fixed Hover Bridge & Click Toggle) -->
           <div class="nav-dropdown-wrapper relative group" id="navToolsDropdownWrapper">
-            <button id="navToolsDropdownBtn" onclick="toggleNavToolsDropdown(event)" class="nav-link px-3 py-2 rounded-xl bg-gradient-to-r from-indigo-50/90 to-purple-50/90 hover:from-indigo-100 hover:to-purple-100 border border-indigo-200 text-indigo-950 flex items-center gap-1.5 cursor-pointer font-black shadow-2xs transition-all">
+            <button id="navToolsDropdownBtn" onclick="toggleNavToolsDropdown(event)" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-gradient-to-r from-indigo-50/90 to-purple-50/90 hover:from-indigo-100 hover:to-purple-100 border border-indigo-200 text-indigo-950 flex items-center gap-1 cursor-pointer font-black shadow-2xs transition-all">
               <i class="fa-solid fa-toolbox text-indigo-600"></i>
-              <span class="bg-gradient-to-r from-indigo-700 to-purple-700 bg-clip-text text-transparent" data-i18n="nav_tools">Tools Suite</span>
+              <span class="bg-gradient-to-r from-indigo-700 to-purple-700 bg-clip-text text-transparent"><span class="hidden xl:inline">Tools </span>Suite</span>
               <span class="px-1.5 py-0.2 text-[9px] font-black rounded-full bg-indigo-600 text-white shadow-2xs">8 AI</span>
-              <i id="navToolsChevron" class="fa-solid fa-chevron-down text-[10px] text-indigo-500 transition-transform duration-200 group-hover:rotate-180"></i>
+              <i id="navToolsChevron" class="fa-solid fa-chevron-down text-[9px] text-indigo-500 transition-transform duration-200 group-hover:rotate-180"></i>
             </button>
             <div id="navToolsDropdownMenu" class="nav-dropdown-menu hidden group-hover:!block group-focus-within:!block">
               <div class="relative w-[580px] xl:w-[620px] bg-white rounded-3xl shadow-2xl border border-slate-200 p-4 text-slate-800 animate-fadeIn grid grid-cols-2 gap-3.5">
@@ -782,39 +782,39 @@ body {
             </div>
           </div>
 
-          <a href="#links" class="nav-link px-3 py-2 rounded-xl bg-sky-50/80 hover:bg-sky-100/90 border border-sky-200 text-slate-900 hover:text-sky-900 flex items-center gap-1.5 font-black shadow-2xs transition-all" data-i18n="nav_links">
+          <a href="#links" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-sky-50/80 hover:bg-sky-100/90 border border-sky-200 text-slate-900 hover:text-sky-900 flex items-center gap-1 font-black shadow-2xs transition-all">
             <i class="fa-solid fa-link text-sky-600"></i>
-            <span>Important Links</span>
-            <span class="px-1.5 py-0.2 text-[10px] font-black rounded-full bg-gradient-to-r from-sky-600 to-blue-600 text-white shadow-2xs">60+</span>
+            <span><span class="hidden xl:inline">Important </span>Links</span>
+            <span class="px-1.5 py-0.2 text-[9px] font-black rounded-full bg-gradient-to-r from-sky-600 to-blue-600 text-white shadow-2xs">60+</span>
           </a>
-          <a href="#forms" class="nav-link px-3 py-2 rounded-xl bg-rose-50/80 hover:bg-rose-100/90 border border-rose-200 text-slate-900 hover:text-rose-900 flex items-center gap-1.5 font-black shadow-2xs transition-all" data-i18n="nav_forms">
-            <i class="fa-solid fa-file-pdf text-rose-600 text-sm"></i>
-            <span>Forms (PDF)</span>
-            <span class="px-1.5 py-0.2 text-[10px] font-black rounded-full bg-gradient-to-r from-rose-600 to-red-600 text-white shadow-2xs">32+</span>
+          <a href="#forms" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-rose-50/80 hover:bg-rose-100/90 border border-rose-200 text-slate-900 hover:text-rose-900 flex items-center gap-1 font-black shadow-2xs transition-all">
+            <i class="fa-solid fa-file-pdf text-rose-600 text-xs"></i>
+            <span>Forms<span class="hidden xl:inline"> (PDF)</span></span>
+            <span class="px-1.5 py-0.2 text-[9px] font-black rounded-full bg-gradient-to-r from-rose-600 to-red-600 text-white shadow-2xs">32+</span>
           </a>
-          <a href="#training" class="nav-link px-3 py-2 rounded-xl bg-purple-50/80 hover:bg-purple-100/90 border border-purple-200 text-slate-900 hover:text-purple-900 flex items-center gap-1.5 font-black shadow-2xs transition-all" data-i18n="nav_training">
-            <i class="fa-solid fa-circle-play text-purple-600 text-sm"></i>
+          <a href="#training" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-purple-50/80 hover:bg-purple-100/90 border border-purple-200 text-slate-900 hover:text-purple-900 flex items-center gap-1 font-black shadow-2xs transition-all">
+            <i class="fa-solid fa-circle-play text-purple-600 text-xs"></i>
             <span>Training</span>
-            <span class="px-1.5 py-0.2 text-[10px] font-black rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-2xs">38</span>
+            <span class="px-1.5 py-0.2 text-[9px] font-black rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-2xs">38</span>
           </a>
-          <a href="#leads" class="nav-link nav-link-leads px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 hover:from-emerald-500 hover:to-teal-500 text-white flex items-center gap-1.5 font-black text-xs shadow-md shadow-emerald-600/30 border border-emerald-500/80 transition-all transform hover:scale-105 cursor-pointer" data-i18n="nav_leads">
+          <a href="#leads" class="nav-link nav-link-leads px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 hover:from-emerald-500 hover:to-teal-500 text-white flex items-center gap-1 font-black text-[11px] xl:text-xs shadow-md shadow-emerald-600/30 border border-emerald-500/80 transition-all cursor-pointer">
             <i class="fa-solid fa-bolt text-yellow-300 animate-pulse"></i>
             <span>Vle's Lead</span>
-            <span class="px-1.5 py-0.2 text-[10px] font-black rounded-full bg-white/25 text-white border border-white/40">13+</span>
+            <span class="px-1.5 py-0.2 text-[9px] font-black rounded-full bg-white/25 text-white border border-white/40">13+</span>
           </a>
-          <a href="#contact" class="nav-link px-3 py-2 rounded-xl bg-slate-50 hover:bg-slate-100/90 border border-slate-200/90 text-slate-900 hover:text-teal-800 font-black flex items-center gap-1.5 shadow-2xs transition-all" data-i18n="nav_contact">
+          <a href="#contact" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-slate-50 hover:bg-slate-100/90 border border-slate-200/90 text-slate-900 hover:text-teal-800 font-black flex items-center gap-1 shadow-2xs transition-all">
             <i class="fa-solid fa-headset text-teal-600"></i>
             <span>Contact</span>
           </a>
         </nav>
 
         <!-- Right Side Actions: Join External Link -->
-        <div class="hidden lg:flex items-center gap-2 shrink-0">
+        <div class="hidden lg:flex items-center gap-1 shrink-0">
           <!-- Join as a VLE External Link (Opens vleunionodisha.in in new window) -->
           <a href="https://vleunionodisha.in" target="_blank" rel="noopener noreferrer" 
-            class="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-black rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 shadow-md shadow-orange-500/20 transition-all transform hover:scale-105">
+            class="inline-flex items-center gap-1 px-2.5 py-1.5 xl:px-4 xl:py-2 text-[11px] xl:text-xs font-black rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 shadow-md shadow-orange-500/20 transition-all transform hover:scale-105">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            <span>JOIN AS A VLE</span>
+            <span>JOIN VLE</span>
           </a>
         </div>
 
@@ -5197,7 +5197,7 @@ body {
 
 
   <!-- ==================== 4. GLOBAL SEARCH MODAL (Ctrl+K) ==================== -->
-  <div id="globalSearchModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-start justify-center pt-20 px-4">
+  <div id="globalSearchModal" style="display: none;" class="hidden fixed inset-0 z-50 modal-backdrop flex items-start justify-center pt-20 px-4">
     <div class="bg-white rounded-2xl shadow-2xl border border-slate-200 w-full max-w-xl overflow-hidden animate-fadeIn">
       <div class="p-4 border-b border-slate-200 flex items-center gap-3">
         <i class="fa-solid fa-magnifying-glass text-slate-400"></i>
@@ -5215,7 +5215,7 @@ body {
 
 
   <!-- ==================== 5. VIDEO PLAYER MODAL ==================== -->
-  <div id="videoPlayerModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4">
+  <div id="videoPlayerModal" style="display: none;" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4">
     <div class="bg-slate-900 rounded-2xl shadow-2xl border border-slate-700 w-full max-w-3xl overflow-hidden text-white">
       <div class="p-4 border-b border-slate-800 flex items-center justify-between">
         <h3 id="videoModalTitle" class="text-sm font-bold text-sky-400 truncate pr-4">Training Video</h3>
@@ -5232,7 +5232,7 @@ body {
 
 
   <!-- ==================== 6. ADMIN PASSWORD LOGIN MODAL ==================== -->
-  <div id="adminLoginModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4">
+  <div id="adminLoginModal" style="display: none;" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl shadow-2xl border border-slate-200 w-full max-w-sm overflow-hidden text-slate-800 p-6 space-y-4 animate-fadeIn">
       <div class="text-center">
         <div class="w-14 h-14 rounded-2xl bg-rose-100 text-rose-600 mx-auto flex items-center justify-center text-2xl mb-2 shadow-inner">
@@ -5265,7 +5265,7 @@ body {
 
 
   <!-- ==================== 7. FULL HD WELCOME ANNOUNCEMENT POPUP MODAL ==================== -->
-  <div id="welcomePopupModal" onclick="if(event.target === this) closeWelcomePopup()" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+  <div id="welcomePopupModal" style="display: none;" onclick="if(event.target === this) closeWelcomePopup()" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
     <div class="relative bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-2xl max-h-[92vh] overflow-y-auto text-slate-800 popup-animate my-auto flex flex-col">
       
       <!-- Modal Header Strip with Badge & Close Button -->
@@ -5334,7 +5334,7 @@ body {
 
 
   <!-- ==================== 8. SUPPORT & DONATE MODAL (QR CODE & UPI) ==================== -->
-  <div id="donateModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
+  <div id="donateModal" style="display: none;" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
     <div class="relative bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-md overflow-hidden text-slate-800 popup-animate my-auto">
       
       <!-- Top Banner -->
@@ -5395,7 +5395,7 @@ body {
 
 
   <!-- ==================== 9. CUTOUT.PRO AI ASSISTANT MODAL ==================== -->
-  <div id="cutoutProModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
+  <div id="cutoutProModal" style="display: none;" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
     <div class="relative bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-lg overflow-hidden text-slate-800 popup-animate my-auto">
       <div class="bg-gradient-to-r from-sky-900 via-blue-900 to-slate-900 text-white p-6 relative">
         <button onclick="closeCutoutProAssistant()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/30 hover:bg-black/50 text-white flex items-center justify-center text-lg transition-all">
@@ -5439,7 +5439,7 @@ body {
 
 
   <!-- ==================== 9.5. VLE'S LEAD & SERVICES INQUIRY MODAL ==================== -->
-  <div id="leadModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+  <div id="leadModal" style="display: none;" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
     <div class="relative bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-xl max-h-[92vh] overflow-y-auto text-slate-800 popup-animate my-auto flex flex-col">
       
       <!-- Modal Header Strip -->
@@ -5591,7 +5591,7 @@ body {
 
 
   <!-- ==================== 9.6. LEAD SUCCESS CONFIRMATION MODAL ==================== -->
-  <div id="leadSuccessModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
+  <div id="leadSuccessModal" style="display: none;" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
     <div class="relative bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-md overflow-hidden text-slate-800 popup-animate my-auto text-center p-6 sm:p-8 space-y-4">
       
       <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-3xl mx-auto shadow-inner">
@@ -6730,10 +6730,11 @@ body {
   <script src="js/pdftools.js?v=7.0"></script>
   <script src="js/resumemaker.js?v=7.0"></script>
   <script src="js/icardmaker.js?v=7.0"></script>
+  <script src="js/forms.js?v=7.0"></script>
   <script src="js/links.js?v=7.0"></script>
   <script src="js/training.js?v=7.0"></script>
-  <script src="leads.js?v=7.0" onerror="this.onerror=null;this.src='js/leads.js?v=7.0';"></script>
-  <script src="admin.js?v=7.0" onerror="this.onerror=null;this.src='js/admin.js?v=7.0';"></script>
+  <script src="js/leads.js?v=7.0"></script>
+  <script src="js/admin.js?v=7.0"></script>
   <script src="js/app.js?v=7.0"></script>
 
   <!-- Inline Resilient Navigation Dropdown Controller -->
